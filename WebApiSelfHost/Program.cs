@@ -1,5 +1,4 @@
-﻿using ICSharpCode.SharpZipLib.Zip;
-using Microsoft.Owin.Hosting;
+﻿using Microsoft.Owin.Hosting;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
