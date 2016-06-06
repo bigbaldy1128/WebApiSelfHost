@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSelfHost", "ConsoleApplication1\WebApiSelfHost.csproj", "{5773A99C-A25D-41E0-BD55-1BF7E70982B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSelfHost", "WebApiSelfHost\WebApiSelfHost.csproj", "{5773A99C-A25D-41E0-BD55-1BF7E70982B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
