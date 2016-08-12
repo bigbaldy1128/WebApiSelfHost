@@ -17,6 +17,7 @@ namespace WebApiSelfHost
 
     public class TestController:ApiController
     {
+        [Route("my/get")]
         [HttpGet]
         public HttpResponseMessage Get()
         {

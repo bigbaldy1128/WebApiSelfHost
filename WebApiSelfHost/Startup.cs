@@ -15,11 +15,13 @@ namespace ConsoleApplication1
             //创建一个HTTP的实例配置
             HttpConfiguration config = new HttpConfiguration();
             //映射路由
-            config.Routes.MapHttpRoute(
-              name: "default",
-              routeTemplate: "api/{controller}/{action}/{id}",
-              defaults: new { id = RouteParameter.Optional }
-            );
+            //config.Routes.MapHttpRoute(
+            //  name: "default",
+            //  routeTemplate: "api/{controller}/{action}/{id}",
+            //  defaults: new { id = RouteParameter.Optional }
+            //);
+
+            config.MapHttpAttributeRoutes();
             //将配置注入OWIN管道中
             app.UseWebApi(config);
         }
